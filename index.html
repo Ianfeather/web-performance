@@ -1,35 +1,49 @@
 <html>
     <head>
       <title>Pro Egg Tips</title>
+      <!--
+        dns-prefetch
+       -->
+        <link rel="dns-prefetch" href="https://img.buzzfeed.com" crossorigin/>
+
+       <!--
+        preconnect
+        <link rel="preconnect" href="https://img.buzzfeed.com" crossorigin/>
+       -->
+
+       <!--
+        preload
+        <link rel="preload" href="https://img.buzzfeed.com/buzzfeed-static/static/2018-08/29/17/asset/buzzfeed-prod-web-01/sub-buzz-24374-1535577996-13.png?downsize=800:*&output-format=auto&output-quality=auto&z=1" crossorigin/>
+       -->
 
       <!--
         This file has no cache-control headers
         cache-control: no-cache, no-store, must-revalidate
        -->
-        <link rel="stylesheet" href="https://www.buzzfeed.com/static-assets/css/core.d6967da86f868355e6bc-nocache.css" />
+        <link rel="stylesheet" href="https://www.buzzfeed.com/static-assets/css/core.d6967da86f868355e6bc-nocache.css?z=1" />
 
        <!--
         This file has immutable cache-control headers
         cache-control: max-age=31536000,immutable
        -->
-        <link rel="stylesheet" href="https://www.buzzfeed.com/static-assets/css/core.d6967da86f868355e6bc.css" />
+        <link rel="stylesheet" href="https://www.buzzfeed.com/static-assets/css/core.d6967da86f868355e6bc.css?z=1" />
     </head>
     <body>
       <h1>Pro Egg Tips</h1>
-      <img src="https://img.buzzfeed.com/buzzfeed-static/static/2018-08/29/17/asset/buzzfeed-prod-web-01/sub-buzz-24374-1535577996-13.png?downsize=800:*&output-format=auto&output-quality=auto" />
+      <img src="https://img.buzzfeed.com/buzzfeed-static/static/2018-08/29/17/asset/buzzfeed-prod-web-01/sub-buzz-24374-1535577996-13.png?downsize=800:*&output-format=auto&output-quality=auto&z=1" />
 
       <!--
         This file has only CDN cache-control headers
         cache-control: no-cache, no-store, must-revalidate
         surrogate-control: max-age=31536000
        -->
-        <script src="https://www.buzzfeed.com/static/js/advertiser/prebid.js"></script>
+        <script src="https://www.buzzfeed.com/static/js/advertiser/prebid.js?z=1"></script>
 
        <!--
         This file has immutable cache-control headers
         cache-control: max-age=31536000,immutable
        -->
-        <script src="https://www.buzzfeed.com/static-assets/js/prebid-cache.js"></script>
+        <script src="https://www.buzzfeed.com/static-assets/js/prebid-cache.js?z=1"></script>
 
     </body>
 </html>
