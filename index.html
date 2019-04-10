@@ -5,6 +5,7 @@
         dns-prefetch
        -->
         <link rel="dns-prefetch" href="https://img.buzzfeed.com" crossorigin/>
+        <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" crossorigin/>
 
        <!--
         preconnect
@@ -44,6 +45,14 @@
         cache-control: max-age=31536000,immutable
        -->
         <script src="https://www.buzzfeed.com/static-assets/js/prebid-cache.js?z=1"></script>
+
+        <script>
+          setTimeout(function() {
+            var x = document.createElement('script');
+            x.src = "https://cdnjs.cloudflare.com/ajax/libs/react/16.8.6/umd/react.production.min.js";
+            document.head.appendChild(x);
+          }, 1000);
+        </script>
 
     </body>
 </html>
